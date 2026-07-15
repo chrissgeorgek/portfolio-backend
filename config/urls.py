@@ -9,12 +9,10 @@ from rest_framework_simplejwt.views import (
 )
 
 urlpatterns = [
-
     path("admin/", admin.site.urls),
 
     path("api/", include("portfolio.urls")),
 
-    # JWT Authentication
     path(
         "api/token/",
         TokenObtainPairView.as_view(),
@@ -26,11 +24,10 @@ urlpatterns = [
         TokenRefreshView.as_view(),
         name="token_refresh",
     ),
-
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(
-        settings.MEDIA_URL,
-        document_root=settings.MEDIA_ROOT,
-    )
+# Serve media files
+urlpatterns += static(
+    settings.MEDIA_URL,
+    document_root=settings.MEDIA_ROOT,
+)
