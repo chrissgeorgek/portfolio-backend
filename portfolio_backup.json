@@ -1,0 +1,466 @@
+[
+{
+  "model": "portfolio.hero",
+  "pk": 1,
+  "fields": {
+    "name": "Chriss George",
+    "designation": "Full Stack Developer and Software Engineer",
+    "headline": "Building modern web applications that solve real-world problems.",
+    "description": "Passionate software developer with experience building scalable applications using Python, Django, React and PostgreSQL.",
+    "profile_image": "hero/myimg2.jpeg",
+    "resume": "resume/Chriss_Resume_auoW4QK.pdf",
+    "github": "https://github.com/chrissgeorgek",
+    "linkedin": "https://linkedin.com/in/chrissgeorge",
+    "email": "chrissgeorgek@gmail.com",
+    "phone": "7558843749",
+    "location": "Mallappally, Kerala, India",
+    "updated_at": "2026-07-12T11:03:33.143Z"
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "category": "Backend",
+    "icon": "FaPython",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 2,
+  "fields": {
+    "name": "React",
+    "category": "Frontend",
+    "icon": "FaReact",
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 3,
+  "fields": {
+    "name": "Django",
+    "category": "Backend",
+    "icon": "SiDjango",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 4,
+  "fields": {
+    "name": "Node.js",
+    "category": "Backend",
+    "icon": "FaNodeJs",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 5,
+  "fields": {
+    "name": "Express.js",
+    "category": "Backend",
+    "icon": "SiExpress",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 6,
+  "fields": {
+    "name": "PostgreSQL",
+    "category": "Database",
+    "icon": "SiPostgresql",
+    "display_order": 1,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 7,
+  "fields": {
+    "name": "MySQL",
+    "category": "Database",
+    "icon": "SiMysql",
+    "display_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 8,
+  "fields": {
+    "name": "Git",
+    "category": "Tools",
+    "icon": "FaGitAlt",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 9,
+  "fields": {
+    "name": "GitHub",
+    "category": "Tools",
+    "icon": "FaGithub",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 10,
+  "fields": {
+    "name": "Postman",
+    "category": "Tools",
+    "icon": "SiPostman",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 11,
+  "fields": {
+    "name": "AWS",
+    "category": "Cloud",
+    "icon": "FaAws",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 12,
+  "fields": {
+    "name": "HTML5",
+    "category": "Frontend",
+    "icon": "FaHtml5",
+    "display_order": 2,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 13,
+  "fields": {
+    "name": "CSS3",
+    "category": "Frontend",
+    "icon": "FaCss3Alt",
+    "display_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 14,
+  "fields": {
+    "name": "SQLite3",
+    "category": "Database",
+    "icon": "SiSqlite",
+    "display_order": 3,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 15,
+  "fields": {
+    "name": "JavaScript",
+    "category": "Frontend",
+    "icon": "SiJavascript",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 16,
+  "fields": {
+    "name": "Bootstrap",
+    "category": "Frontend",
+    "icon": "FaBootstrap",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 17,
+  "fields": {
+    "name": "Docker",
+    "category": "Tools",
+    "icon": "FaDocker",
+    "display_order": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 18,
+  "fields": {
+    "name": "Tailwind",
+    "category": "Frontend",
+    "icon": "SiTailwindcss",
+    "display_order": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.skill",
+  "pk": 19,
+  "fields": {
+    "name": "Redis",
+    "category": "Database",
+    "icon": "SiRedis",
+    "display_order": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 1,
+  "fields": {
+    "title": "Portfolio CMS",
+    "short_description": "Full Stack Portfolio Website",
+    "description": "Built using React, Django REST Framework and PostgreSQL.",
+    "project_image": "projects/Screenshot_2026-07-13_124912.png",
+    "github_url": "https://github.com/chrissgeorgek/Portfolio.git",
+    "live_demo_url": "",
+    "featured": true,
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-12T13:42:33.259Z",
+    "updated_at": "2026-07-13T07:19:37.365Z",
+    "technologies": [
+      3,
+      9,
+      6,
+      2,
+      18
+    ]
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 2,
+  "fields": {
+    "title": "Saha Learning Platform",
+    "short_description": "Fullstack Edtech Platform",
+    "description": "Saha is a learning and communication platform for both students and teachers.",
+    "project_image": "projects/saha.jpeg",
+    "github_url": "",
+    "live_demo_url": "",
+    "featured": false,
+    "display_order": 2,
+    "is_active": true,
+    "created_at": "2026-07-13T06:55:18.896Z",
+    "updated_at": "2026-07-13T06:55:18.897Z",
+    "technologies": [
+      3,
+      17,
+      8,
+      9,
+      15,
+      10,
+      6,
+      2,
+      19,
+      18
+    ]
+  }
+},
+{
+  "model": "portfolio.project",
+  "pk": 3,
+  "fields": {
+    "title": "Training Management System",
+    "short_description": "LMS",
+    "description": "Role-based web application for managing courses, faculty, students, attendance, daily work reports, approvals and batch allocation using Django.",
+    "project_image": "projects/training.png",
+    "github_url": "https://github.com/chrissgeorgek/Training-Management.git",
+    "live_demo_url": "",
+    "featured": false,
+    "display_order": 2,
+    "is_active": true,
+    "created_at": "2026-07-14T04:51:31.452Z",
+    "updated_at": "2026-07-14T04:52:44.187Z",
+    "technologies": [
+      16,
+      3,
+      9,
+      1,
+      6,
+      12
+    ]
+  }
+},
+{
+  "model": "portfolio.experience",
+  "pk": 1,
+  "fields": {
+    "company": "Etome Workd Limited",
+    "designation": "Software Engineer Intern",
+    "employment_type": "Full time",
+    "company_logo": "",
+    "location": "Changanasserry",
+    "start_date": "2026-04-23",
+    "end_date": "2026-06-23",
+    "currently_working": false,
+    "description": "Developed the SAHA Learning Platform using Django REST Framework and React.js. Implemented JWT authentication, role-based access control, PostgreSQL database design, WebSockets, Redis, and real-time chat features while contributing to scalable backend APIs and responsive frontend interfaces.",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-12T15:03:21.554Z",
+    "updated_at": "2026-07-14T04:45:11.832Z",
+    "technologies": [
+      3,
+      17,
+      9,
+      10,
+      1,
+      6,
+      2,
+      19,
+      18
+    ]
+  }
+},
+{
+  "model": "portfolio.experience",
+  "pk": 2,
+  "fields": {
+    "company": "IPSR Solutions Limited",
+    "designation": "Software Developer Trainee",
+    "employment_type": "Full time",
+    "company_logo": "",
+    "location": "Kottayam",
+    "start_date": "2025-07-22",
+    "end_date": "2026-03-19",
+    "currently_working": false,
+    "description": "Developed a role-based Training Management System using Django and PostgreSQL. Built modules for student management, faculty management, batch allocation, attendance tracking, daily work reporting, approvals, and administrative operations with secure authentication and CRUD functionality.",
+    "display_order": 2,
+    "is_active": true,
+    "created_at": "2026-07-14T04:47:52.432Z",
+    "updated_at": "2026-07-14T04:47:52.432Z",
+    "technologies": [
+      16,
+      3,
+      9,
+      1,
+      6,
+      18
+    ]
+  }
+},
+{
+  "model": "portfolio.education",
+  "pk": 1,
+  "fields": {
+    "institution": "Kristu Jyoti College of Management and Technology",
+    "degree": "Master of Computer Application(MCA)",
+    "field_of_study": "Computer Applications",
+    "location": "Changanasserry",
+    "start_date": "2022-07-04",
+    "end_date": "2024-07-31",
+    "grade": "8.03",
+    "description": "A postgraduate program focused on software engineering, web development, database systems, computer networks, and programming, providing practical experience in developing scalable software solutions.",
+    "institution_logo": "education/images.jfif",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-13T06:36:50.136Z",
+    "updated_at": "2026-07-14T05:01:51.912Z"
+  }
+},
+{
+  "model": "portfolio.education",
+  "pk": 2,
+  "fields": {
+    "institution": "Kristu Jyoti College of Management and Technology",
+    "degree": "Bachelor of Computer Application(BCA)",
+    "field_of_study": "Computer Applications",
+    "location": "Changanasserry, Kottayam",
+    "start_date": "2019-08-05",
+    "end_date": "2022-05-02",
+    "grade": "7",
+    "description": "An undergraduate program focused on computer science fundamentals, programming, database systems, networking, and software development.",
+    "institution_logo": "",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-14T05:00:50.668Z",
+    "updated_at": "2026-07-14T05:01:42.585Z"
+  }
+},
+{
+  "model": "portfolio.certificate",
+  "pk": 1,
+  "fields": {
+    "title": "Cloud Computing & Distributed Systems",
+    "issuer": "NPTEL",
+    "issue_date": "2023-01-20",
+    "credential_id": "",
+    "certificate_url": "",
+    "certificate_image": "",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-14T04:54:37.332Z",
+    "updated_at": "2026-07-14T04:54:54.886Z"
+  }
+},
+{
+  "model": "portfolio.certificate",
+  "pk": 2,
+  "fields": {
+    "title": "Fundamentals of Digital Marketing",
+    "issuer": "Google",
+    "issue_date": "2022-06-14",
+    "credential_id": "",
+    "certificate_url": "",
+    "certificate_image": "",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-14T04:55:37.645Z",
+    "updated_at": "2026-07-14T04:55:37.645Z"
+  }
+},
+{
+  "model": "portfolio.certificate",
+  "pk": 3,
+  "fields": {
+    "title": "Introduction to Digital Journalism",
+    "issuer": "Reuters",
+    "issue_date": "2023-12-30",
+    "credential_id": "",
+    "certificate_url": "",
+    "certificate_image": "",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-14T04:56:41.020Z",
+    "updated_at": "2026-07-14T04:56:41.020Z"
+  }
+},
+{
+  "model": "portfolio.certificate",
+  "pk": 4,
+  "fields": {
+    "title": "AWS Short-Term Training Programme (STTP)",
+    "issuer": "Amazon Web Services",
+    "issue_date": "2022-05-15",
+    "credential_id": "",
+    "certificate_url": "",
+    "certificate_image": "",
+    "display_order": 1,
+    "is_active": true,
+    "created_at": "2026-07-14T04:57:40.639Z",
+    "updated_at": "2026-07-14T04:57:40.639Z"
+  }
+}
+]
